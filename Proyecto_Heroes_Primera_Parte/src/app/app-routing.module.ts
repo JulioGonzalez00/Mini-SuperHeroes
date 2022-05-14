@@ -5,11 +5,15 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
+import { VideoComponent } from './video/video.component';
+import { ExtraComponent } from './extra/extra.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
   {path: 'about', component: AboutComponent},
   {path: 'heroes', component: HeroesComponent},
+  {path: 'video', component: VideoComponent},
+  {path: 'extra', component: ExtraComponent},
 
   {path: 'heroe/:id', component: UnheroeComponent},
   {path: 'buscador/:nombreH', component: SearchComponent},

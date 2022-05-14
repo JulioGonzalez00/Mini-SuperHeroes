@@ -49,5 +49,56 @@ export const HEROES: Heroe[] = [
     img: "assets/imagenes/img/wolverine.png",
     aparicion: "1974-11-01",
     casa: "Marvel"
+  },
+  {
+    nombre:"Deadpool",
+    bio:"Wade Winston Wilson, más conocido como Deadpool,es un personaje ficticio, mercenario, supervillano y antihéroe, que aparece en los cómics publicados por Marvel Comics. ",
+    img:"assets/imagenes/img/DeadPool.jpg",
+    aparicion: "1991-02-?",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Superman",
+    bio: "Es un superhéroe ficticio que apareció por primera vez en los cómics estadounidenses publicados por DC Comics.Cuando llegó a la Tierra desde su agonizante Kriptón, el pequeño KAL-EL fue encontrado por una pareja de granjeros que lo bautizaron con el nombre de Clark Kent y lo criaron como hijo suyo, sin sospechar que se convertiría en el superhéroe más poderoso de la tierra: Superman, el hombre de acero.",
+    img:"assets/imagenes/img/Superman.jpg",
+    aparicion: "1938-04-18",
+    casa: "DC"
+  },
+  {
+    nombre: "Doctor Strange",
+    bio: "El Doctor Stephen Strange es un personaje ficticio que aparece en los cómics estadounidenses publicados por Marvel Comics. Doctor Strange actúa como el Hechicero Supremo , el principal protector de la Tierra contra las amenazas mágicas y místicas. Strange fue creado durante la Edad de Plata de los cómics para traer un tipo diferente de personaje y temas de misticismo a Marvel Comics.",
+    img:"assets/imagenes/img/Strange.jpg",
+    aparicion: "1963-07-11",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Flash",
+    bio: "Flash es el nombre de varios superhéroes ficticios que aparecen en los cómics estadounidenses publicados por DC Comics.Apodado el Corredor Escarlata, todas las encarnaciones del Flash poseen súper velocidad, que incluye la capacidad de correr, moverse y pensar extremadamente rápido, también puede atravesar la materia sólida, usar reflejos sobrehumanos y aparentemente violar ciertas leyes de la física, como superar la velocidad de la luz.",
+    img:"assets/imagenes/img/Flash.jpg",
+    aparicion: "1940-01-01",
+    casa: "DC"
+  },
+  {
+    nombre: "Iron Man",
+    bio: "Iron Man es un superhéroe que aparece en los cómics estadounidenses publicados por Marvel Comics. Anthony Edward Stark, conocido como Tony Stark, es un multimillonario magnate empresarial estadounidense, playboy e ingenioso científico, quien sufrió una grave lesión en el pecho durante un secuestro en el Medio Oriente. Cuando sus captores intentan forzarlo a construir un arma de destrucción masiva crea, en cambio, una armadura para salvar su vida y escapar del cautiverio. Más tarde, Stark desarrolla su traje, agregando armas y otros dispositivos tecnológicos que diseñó a través de su compañía, Industrias Stark. Él usa el traje y las versiones sucesivas para proteger al mundo como Iron Man. ",
+    img:"assets/imagenes/img/Ironman.jpg",
+    aparicion: "1963-03-03",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Mujer Maravilla",
+    bio: "a Mujer Maravilla es una superheroína ficticia creada por William Moulton Marston para la editorial DC Comics. Es una princesa guerrera de las Amazonas, pueblo ficticio basado en el de las amazonas de la mitología griega. En su tierra natal es conocida como la princesa Diana de Temiscira pero fuera de esta utiliza la identidad secreta de Diana Prince",
+    img:"assets/imagenes/img/MujerMaravilla.jpg",
+    aparicion: "1941-12-8",
+    casa: "DC"
+  },
+  {
+    nombre: "Black Panther",
+    bio: "Pantera Negra (T'Challa)es un superhéroe de la compañía estadounidense Marvel Comics, creado por Stan Lee y Jack Kirby  Es el primer superhéroe de tez negra de la historia de Marvel y se debe destacar que el personaje fue creado con anterioridad al Partido Pantera Negra, el cual fue fundado en octubre del mismo año. Es el rey y protector de la ficticia nación africana de Wakanda. Además de poseer habilidades mejoradas logradas a través de rituales antiguos de Wakanda de beber la esencia de la hierba en forma de corazón, T'Challa también confía en su dominio de la ciencia, el entrenamiento físico riguroso, las habilidades de combate mano a mano y el acceso a la riqueza y la avanzada tecnología de Wakanda para combatir a sus enemigos que amenacen su cultura y tradiciones.",
+    img:"assets/imagenes/img/BlackPanter.jpg",
+    aparicion: "1966-07-12",
+    casa: "Marvel"
   }
+ 
+ 
 ]
