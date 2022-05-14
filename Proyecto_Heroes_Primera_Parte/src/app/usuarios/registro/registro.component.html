@@ -1,0 +1,27 @@
+<div class="container bg-light p-4">
+  <div class="modal-body text-center">
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text" class="form-control" [(ngModel)]="usuario.nombre" required>
+    </div>
+    <div class="mb-3">
+      <label class="form-label mr-2">Sexo </label>
+      <select [(ngModel)]="usuario.sexo" required class="form-select" aria-label="Default select example">
+        <option value="Hombre">Hombre</option>
+        <option value="Mujer">Mujer</option>
+        <option value="No especificar">No especificar</option>
+      </select>
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" [(ngModel)]="usuario.correo">
+    </div>
+    <div class="mb-3">
+      <label for="" class="form-label">Fecha de nacimiento</label>
+      <input type="date" class="form-control" [(ngModel)]="usuario.fechaNacimiento">
+      <div class="form-text"></div>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary" data-dismiss="modal" (click)="this.nuevoUsuario()">Registrarse</button>
+</div>
+

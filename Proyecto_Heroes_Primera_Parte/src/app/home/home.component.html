@@ -1,6 +1,25 @@
 <div class="jumbotron jumbotron-fluid text-center mt-2 bg-info p-3">
-    <div class="container-fluid">
-        <h1 class="display-3">Comic App</h1>
-        <p class="lead">Esta es una aplicación de comics</p>
+  <div class="container-fluid">
+    <h1 class="display-3">Comic App</h1>
+    <p class="lead">Esta es una aplicación de comics</p>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Registrarse</button>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content bg-info">
+          <div class="modal-header bg-success">
+            <h5 class="modal-title text-white" id="exampleModalLabel">Formulario de registro</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <app-registro></app-registro>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </div>
+
+

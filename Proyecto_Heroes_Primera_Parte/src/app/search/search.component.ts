@@ -28,6 +28,11 @@ export class SearchComponent implements OnInit {
 
       if(this.indice != -1) {
         this.miHeroe = heroeService.getUnHeroe(this.indice)
+      } else if(this.indice == -1) {
+        setTimeout(() => {
+          console.log("hola")
+          location.href = '/heroes'
+        }, 3000)
       }
     })
   }

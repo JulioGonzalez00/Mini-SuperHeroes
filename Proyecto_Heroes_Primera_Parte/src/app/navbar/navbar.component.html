@@ -4,7 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a class="nav-link active" routerLinkActive="active" aria-current="page" routerLink="/home">Home</a>
@@ -15,13 +15,16 @@
       <li class="nav-item">
         <a class="nav-link active" routerLinkActive="active" routerLink="/about">About</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLinkActive="active" routerLink="/listado">Usuarios</a>
+      </li>
     </ul>
     <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form> -->
 
-    <form class="form-inline my-2 my-lg-0">
+    <form class="form-inline my-2 my-lg-0 justify-content-center">
       <input class="form-control mr-sm-2" type="search" placeholder="Buscar un héroe" #buscarTexto (keyup.enter)="buscarUnHeroe(buscarTexto.value)" aria-label="Search">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="buscarUnHeroe(buscarTexto.value)">Buscar</button>
     </form>

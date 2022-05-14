@@ -1,7 +1,9 @@
-<div class="row animated fadeIn fast" *ngIf="indice == -1">
-  <div class="col-md-12">
-    <div class="alert alert-info" role="alert">
-      No existen resultados de {{nombreH}}
+<div class="row animated fadeIn fasttext-center" *ngIf="indice == -1">
+  <div class="col-md-12 p-4 bg-danger">
+    <div class="alert alert-info text-center bg-light" role="alert">
+      <img src="../../assets/avisoTriste.jpg" width="30%">
+      <br>
+      <p style="font-size: 3em;">No existen resultados de <span style="font-weight: bold;">{{nombreH}}</span></p>
     </div>
   </div>
 </div>
