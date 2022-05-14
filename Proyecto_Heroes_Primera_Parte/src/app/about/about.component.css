@@ -1,0 +1,36 @@
+.container{
+  font-style: arial;
+  color: black;
+  background-color: lightgray;
+  padding: 10px;
+  display: block;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.alerta{
+  text-align: center;
+  font-style: arial bold;
+  color: black;
+  background-image: url("https://blog.solucion24-7.com.ec/wp-content/uploads/marvel.jpg");
+  padding: 10px;
+  display: grid;
+  margin-top: 10px;
+  font-size: 40px;
+}
+
+.display-3{
+  font-size: arial black;
+  font-style: arial;
+  font-size: 80px;
+  color: orangered;
+  text-shadow: 10px;
+}
+
+.titulo{
+  font-size: helvetica;
+  margin-top: 60px;
+  color: black;
+  text-align:justify;
+  font-size: 30px;
+}
