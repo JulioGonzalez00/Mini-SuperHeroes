@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
 import { ListadoComponent } from './usuarios/listado/listado.component';
+import { VideoComponent } from './video/video.component';
+import { ExtraComponent } from './extra/extra.component';
 
 const routes: Routes = [
   {path: 'home', component: HomeComponent},
@@ -15,6 +17,8 @@ const routes: Routes = [
   {path: 'heroe/:id', component: UnheroeComponent},
   {path: 'buscador/:nombreH', component: SearchComponent},
   {path: 'listado', component: ListadoComponent},
+  {path: 'video', component: VideoComponent},
+  {path: 'extra', component: ExtraComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
 ];
 

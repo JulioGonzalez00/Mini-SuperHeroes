@@ -10,6 +10,9 @@ import { HeroesComponent } from './heroes/heroes.component';
 import { SearchComponent } from './search/search.component';
 import { UnheroeComponent } from './unheroe/unheroe.component';
 import { UsuariosModule } from './usuarios/usuarios.module';
+import { VideoComponent } from './video/video.component';
+import { ExtraComponent } from './extra/extra.component';
+import { DomseguroPipe } from './domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { UsuariosModule } from './usuarios/usuarios.module';
     AboutComponent,
     HeroesComponent,
     SearchComponent,
-    UnheroeComponent
+    UnheroeComponent,
+    VideoComponent,
+    ExtraComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,

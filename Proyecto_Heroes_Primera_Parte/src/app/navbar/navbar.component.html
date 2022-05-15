@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-3">
   <a class="navbar-brand" href="#"><img src="../../assets/imagenes/A-64.png" alt=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -18,6 +19,12 @@
       <li class="nav-item">
         <a class="nav-link active" routerLinkActive="active" routerLink="/listado">Usuarios</a>
       </li>
+      <li>
+      <a class="nav-link active" routerLinkActive="active" routerLink="/video">Watch Video</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active" routerLinkActive="active" routerLink="/extra">Next Premieres</a>
+      </li>
     </ul>
     <!-- <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -25,8 +32,10 @@
     </form> -->
 
     <form class="form-inline my-2 my-lg-0 justify-content-center">
-      <input class="form-control mr-sm-2" type="search" placeholder="Buscar un héroe" #buscarTexto (keyup.enter)="buscarUnHeroe(buscarTexto.value)" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit" (click)="buscarUnHeroe(buscarTexto.value)">Buscar</button>
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar un héroe" #buscarTexto
+        (keyup.enter)="buscarUnHeroe(buscarTexto.value)" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit"
+        (click)="buscarUnHeroe(buscarTexto.value)">Buscar</button>
     </form>
   </div>
 </nav>
