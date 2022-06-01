@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/proyecto-heroes-primera-parte",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -21,5 +21,6 @@ export class RegistroComponent implements OnInit {
     this.usuarioService.agregarUsuario(this.usuario)
     this.usuario = this.usuarioService.nuevoUsuario()
   }
+  
 
 }
